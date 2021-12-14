@@ -1,0 +1,58 @@
+/* navbar*/
+
+.navbar ul{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* headings*/
+.heading{
+  font-size: 1.6rem;
+}
+
+/* gallery omages */
+.gallery img{
+  width: 270px;
+  height: 360px;
+}
+
+/* about me*/
+
+.about{
+  flex-direction: column;
+}
+.about h2{
+  text-align: center;
+}
+.about img{
+  width: 200px;
+  height: 150px;
+  padding: 0px 15px;
+}
+
+/* message box */
+
+#message{
+  width: 40%;
+  height: 200px;
+}
+
+/* boxes */
+
+.box{
+  height: 150px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+.box h2{
+  color: yellow;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.box p{
+  color: white;
+  font-size: .8rem;
+}
